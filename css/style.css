@@ -1,0 +1,160 @@
+body {
+	font-family: 'HelveticaNeue', serif;
+	font-weight: 400;
+	line-height: 1.5em;
+	background-color: #fff;
+	padding: 0px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 500;
+	line-height: 1.5em;
+}
+p{
+	font-weight: 400;
+	line-height: 1.5em;
+}
+
+#banner_area{
+	border-top: 10px solid #2ecc71;
+	width: 100%;
+    margin: 0px;
+    padding: 0px;
+    clear: both;
+    position: relative;
+}
+
+#banner_area #banner_img {
+	width: 100%;
+	height: auto;
+}
+
+#banner_area #banner_img img{
+	width: inherit;
+	height: max-content;
+}
+#banner_area p{
+	font-family: 'HelveticaNeue', medium;
+	
+	color: #fff;
+	font-size: 24px;
+	line-height: 1.5em;
+	width: 70%;
+	margin-top: 25px;
+}
+#banner_area #inner_banner {
+	position: absolute;
+    top: 180px;
+    left: 325px;
+}
+
+
+
+#banner_area #inner_banner #banner_brands ul{
+	list-style: none;
+	display: inline-flex;
+	padding: 0px;
+}
+
+
+#banner_area #inner_banner #banner_brands ul li{
+	padding: 10px;
+	background-color: #39251c;
+	color: #b19c93;
+	border-radius: 50%;
+    width: 54px;
+    height: 54px;
+    margin-right: 15px;
+    text-align: center;
+
+}
+
+#banner_area #inner_banner #banner_brands ul li:hover{
+	color: #f4f4f4;
+	background-color: #2ecc71;
+}
+
+#banner_area #inner_banner #banner_brands ul li:hover a{
+	color: #f4f4f4;
+}
+
+
+#banner_area #inner_banner #banner_brands ul li a{
+	font-size: 26px;
+	color: #b19c93;
+}
+
+
+
+#banner_area #inner_banner #banner_brands ul li a i{
+	margin: 2px;
+}
+
+
+#features_area {
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+#features_area h3 {
+	font-size: 22px;
+	color: #222;
+}
+
+#features_area p {
+	font-size: 16px;
+	color: #aaa;
+	margin-bottom: 30px;
+}
+
+#features_area #features_cricle {
+	background-color: #2ecc71;
+	text-align: center;
+	margin-top: 60px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding-top: 27px;
+    left: 124px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#notified {
+	background-color: #e3e3e3;
+	padding: 60px 0px; 
+}
+
+#notified h3 {
+	font-size: 22px;
+	font-weight: bold;
+	color: #6a6a6a;
+}
+#notified p {
+	font-size: 16px;
+	color: #848484;
+}
+#notified form {
+	font-size: 18px;
+	
+}
+
+#notified form input[type="text"] {
+	padding: 14px;
+	border-radius: 13px 0px 0px 13px;
+    border: 1px solid #c8c8c8;
+}
+
+#notified form input[type="submit"] {
+	color: #fff;
+	background-color: #2ecc71;
+	font-weight: bold;
+	border:0px;
+	margin-left: -4px;
+    border-radius: 0px 13px 13px 0px;
+    padding: 14px 38px;
+}
+
+#notified video {
+	width: inherit;
+	border-radius: 8px;
+}
